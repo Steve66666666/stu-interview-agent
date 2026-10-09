@@ -1,0 +1,31 @@
+# ---- 环境变量：含数据库密码 / API Key，严禁提交 ----
+.env
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# ---- IDE ----
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# ---- 编辑器/备份临时文件 ----
+*~
+*.bak
+*.orig
+*.rej
+
+# ---- 运行期产物 ----
+*.log
+chroma_data/
+*.sqlite3
+.DS_Store
